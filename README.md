@@ -6,11 +6,10 @@ Upload Button - File Chooser Plugin - To choose required file. Works only on And
 
 Submit Button - Makes an http post request to the above given url as entered by user. Body is { "file" : {file added above}}
 
-To build- Use the following commands
+To build- Use the following commands[Can refer this Link](https://ionicframework.com/docs/angular/your-first-app/6-deploying-mobile)
 
-ionic build 
-ionic cap add android
-ionic cap copy
-ionic cap open android
+-ionic build 
+-ionic cap add android
+-ionic cap copy
+-ionic cap open android
 
-[Link](https://ionicframework.com/docs/angular/your-first-app/6-deploying-mobile)
