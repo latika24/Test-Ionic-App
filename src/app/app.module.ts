@@ -11,6 +11,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FileChooser } from '@ionic-native/file-chooser/ngx';
+import { FileTransfer } from '@ionic-native/file-transfer/ngx';
+import {File} from '@ionic-native/file/ngx';
+import {FilePath} from '@ionic-native/file-path/ngx'
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -19,6 +22,9 @@ import { FileChooser } from '@ionic-native/file-chooser/ngx';
     StatusBar,
     SplashScreen,
     FileChooser,
+    FileTransfer,
+    File,
+    FilePath,
     HttpClientModule,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],

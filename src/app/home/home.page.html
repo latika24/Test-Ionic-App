@@ -19,11 +19,8 @@
       <ion-label>Enter complete url</ion-label>
       <ion-input type="text" [(ngModel)]="url"></ion-input>
     </ion-item>
-
+    {{filesPath}}
     <ion-item>
-
-      <ion-label>{{file}}</ion-label>
-  
       <ion-button (click)="upload()">Upload</ion-button>
     </ion-item>
 
